@@ -676,7 +676,7 @@ function actualizarCampos() {
   const liderPepsico = document.getElementById("lider_pepsico");
   const fechaInput = document.getElementById("fecha");
   if (lugar === "Funza") {
-    coord.value = "Jeison Aranda";
+    coord.value = "Julian Espitia";
     const h = new Date().getHours();
     turno.value = (h >= 6 && h < 14) ? "Manana" : (h >= 14 && h < 22) ? "Tarde" : "Noche";
     if (!liderPepsico.dataset.manualChange) {
@@ -861,3 +861,4 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 </body>
 </html>
+
